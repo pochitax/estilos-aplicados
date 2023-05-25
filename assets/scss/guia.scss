@@ -1,0 +1,75 @@
+@use '../bootstrap-5.3.0-alpha3/scss/bootstrap.scss';
+
+/* tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// variables tamaños
+$font-base: 16px;
+$font-serif: 'Quicksand', sans-serif;
+$font-sans-serif: 'Inter', sans-serif;
+// variables colores
+$blue: #4273C2;
+$green: #2FD0AF;
+$dark-green: #102228;
+$dark-blue: #646C9B;
+$light-gray: #F7FAFF;
+$white: #ffffff;
+
+/* generales */
+body {
+    font-family: $font-sans-serif;
+    font-size: $font-base;
+}
+h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    font-family: $font-serif;
+}
+.font-serif {
+    font-family: $font-serif !important;
+}
+.font-sans-serif {
+    font-family: $font-sans-serif !important;
+}
+h1, .h1 {
+    font-weight: bold;
+    font-size: ($font-base * 2) + 2;
+    text-transform: uppercase;
+    line-height:($font-base * 2.5);
+}
+h2, .h2 {
+    font-weight: 500;
+    font-size: ($font-base * 2);
+    line-height:($font-base * 2) + 6;
+}
+h3, .h3 {
+    font-weight: bold;
+    font-size: $font-base + 2;
+    line-height: $font-base + 8;
+}
+.color-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    text-align: center;
+    &.blue {
+        background-color: $blue;
+    }
+    &.green {
+        background-color: $green;
+    }
+    &.dark-blue {
+        background-color: $dark-blue;
+    }
+    &.dark-green {
+        background-color: $dark-green;
+    }
+    &.white {
+        background-color: $white;
+    }
+    &.light-gray {
+        background-color: $light-gray;
+    }
+}
