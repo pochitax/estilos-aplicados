@@ -12080,6 +12080,7 @@ h3, .h3 {
   text-align: center;
   flex-direction: column;
   position: relative;
+  margin-bottom: 8px;
 }
 .color-box.blue {
   background-color: #4273C2;
@@ -12118,6 +12119,12 @@ h3, .h3 {
   top: 50%;
   margin-top: -12px;
   font-weight: bold;
+}
+
+.color-name {
+  font-weight: bold;
+  font-size: 12px;
+  display: block;
 }
 
 .title-feat {

@@ -64,6 +64,7 @@ h3, .h3 {
     text-align: center;
     flex-direction: column;
     position: relative;
+    margin-bottom: $font-base * 0.5;
     &.blue {
         background-color: $blue;
         span {
@@ -102,6 +103,11 @@ h3, .h3 {
         margin-top: -12px;
         font-weight: bold;
     }
+}
+.color-name {
+    font-weight: bold;
+    font-size: $font-base * 0.75;
+    display: block;
 }
 // propio de la guía de estilos
 .title-feat {
