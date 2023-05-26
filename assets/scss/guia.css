@@ -12051,6 +12051,22 @@ h1 span.green, h2 span.green, h3 span.green, h4 span.green, .h1 span.green, .h2 
   font-family: "Inter", sans-serif !important;
 }
 
+.bold {
+  font-weight: bold !important;
+}
+
+.medium {
+  font-weight: 500 !important;
+}
+
+.normal {
+  font-weight: 400 !important;
+}
+
+.light {
+  font-weight: 300 !important;
+}
+
 h1, .h1 {
   font-weight: bold;
   font-size: 34px;

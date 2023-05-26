@@ -38,6 +38,18 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
 .font-sans-serif {
     font-family: $font-sans-serif !important;
 }
+.bold {
+    font-weight: bold !important;
+}
+.medium {
+    font-weight: 500 !important;
+}
+.normal {
+    font-weight: 400 !important;
+}
+.light {
+    font-weight: 300 !important;
+}
 h1, .h1 {
     font-weight: bold;
     font-size: ($font-base * 2) + 2;
