@@ -12067,6 +12067,14 @@ h1 span.green, h2 span.green, h3 span.green, h4 span.green, .h1 span.green, .h2 
   font-weight: 300 !important;
 }
 
+.text-blue {
+  color: #4273C2;
+}
+
+.bigger-text {
+  font-size: 96px;
+}
+
 h1, .h1 {
   font-weight: bold;
   font-size: 34px;
